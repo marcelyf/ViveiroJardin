@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;    
+    box-sizing: border-box;
+    }
+    
+    
+/* geral */
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p, li{
+    color: black;
+    font-size: 14px;
+}
+
+/* barra */
+
+.header, .navbar{
+    background-color: #94bfa7;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 45px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color:#fff;
+    font-size: 20px;
+}
+
+
+#navbar-links a{
+    color: #fff;
+    font-size: 18px;
+    padding: 25px;
+}
+
+#navbar-links a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.navbar-expand-lg .navbar-nav .navbar-link{
+    padding: 1rem .8rem;
+}
+
+.fixed-top{
+    padding-left: 1%;
+    padding-right: 2%;
+    height: 10%;
+}
+
+/* caixas */
+
+.container1 {
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0.5rem;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    animation-duration: 0.8s;
+    animation-name: faixa;
+}
+
+.tema{
+    /* background-color: aquamarine; */
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.tema h1{
+    font-size: 45px;
+}
+
+.tema hr {
+    display: block;
+    border: 0;
+    border-top: 3px solid #000;
+}
+
+.caixa-artigo {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    transition: transform 0.1s;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    border: 1px solid #000;
+    border-radius: 8px;
+  }
+.caixa-artigo:hover {
+        transform: scale(1.08);
+        opacity: 90%;
+}
+
+.caixa-artigo img{
+    border-radius: 8px;
+}
+
+.caixa-fundo{
+    width: 370px;   
+    height: auto;
+    display: block;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+.caixa-titulo {
+    position: absolute;
+    bottom: 0rem;
+    padding: 0.5rem;
+    color: #000;
+    transition: background-color 1.5s ease;
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+    height: 20%;
+    font-family: 'arial';
+    border-radius: 0 0 8px 8px;
+}
+    .titulo{
+        align-items: center;
+        text-align: center;
+        font-size: 40px;
+        font-weight:200;
+    }
+
+
+/* FOOTER */
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+	padding: 45px;
+}
+
+.nav-link px-2 text-muted{
+	font-size: 200px;
+}
+
+.px-2 {
+    padding-right: .5rem!important;
+    padding-left: .5rem!important;
+    font-size: 18px;
+}
+
+.mb-0 {
+    margin-bottom: 0!important;
+    font-size: 18px;
+}
+
+
+.footer{
+    background-color:#94bfa7;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #f8f9fa!important;
+}
+
+
+
